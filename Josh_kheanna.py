@@ -81,7 +81,7 @@ logo = ("""
  ┃  FACEBOOK : Josh
  ┃  GITHUB : https://github.com/Joshhi1
  ┃  TYPE OF TOOL : PAID
- ┃  VERSION : 0.3       
+ ┃  VERSION : 0.3      
  ┃ AUTO SAVE IN : /sdcard/JOSH-ALIVE.txt & /sdcard/JOSH-DEAD.txt
  ┃ Josh’s GF : Kheanna
  ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━""")
